@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Library Management System</h1>
+        <input type="text" id="search-input" placeholder="Search by title or author">
+        <button id="reset-search">Reset</button>
+    </header>
+
+    <main>
+        <!-- Book Listing Section -->
+        <div id="book-list">
+            <!-- Book cards will be dynamically inserted here -->
+        </div>
+
+        <!-- Book Detail Section -->
+        <div id="book-detail" style="display: none;">
+            <button id="back-button">Back to Book List</button>
+            <img id="detail-image" src="images/book4.jpg" alt="Book Image">
+            <h2 id="detail-title"></h2>
+            <p id="detail-author"></p>
+            <p id="detail-description"></p>
+            <p id="detail-copies"></p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
