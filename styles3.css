@@ -1,0 +1,78 @@
+/* Styling the Edit Book Page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column; /* Align content in column */
+}
+
+/* Edit Book Title */
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* Smaller and more compact form */
+form {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Smaller form */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+/* Inputs & Textarea */
+input, textarea {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Make textarea smaller */
+textarea {
+    resize: none;
+    height: 60px;
+}
+
+/* Update Button */
+button {
+    background-color: #28a745; /* Green for Update */
+    color: white;
+    border: none;
+    padding: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Image Preview */
+img {
+    display: block;
+    margin-top: 8px;
+    max-width: 100%;
+    border-radius: 5px;
+}
